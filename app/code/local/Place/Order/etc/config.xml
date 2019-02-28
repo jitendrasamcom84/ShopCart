@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Place_Order>
+            <version>0.0.1</version>
+        </Place_Order>
+    </modules>
+    <global>
+         <models>
+            <place>
+                <class>Place_Order_Model</class>                
+            </place>
+         </models>
+        <events>
+        <sales_order_place_after>
+                <observers>
+                    <place_sendmail>
+                        <class>Place_Order_Model_Observer</class>
+                        <method>orderMail</method>
+                        <type>singleton</type>
+                    </place_sendmail>
+                </observers>
+        </sales_order_place_after>
+        </events>
+        <template>
+            <email>
+                <place_order_email_template translate="label" module="Place">
+                    <label>Place Order</label>
+                    <file>custom_place_order_email.html</file>
+                    <type>html</type>
+                </place_order_email_template>
+            </email>
+        </template>
+    </global>
+</config>

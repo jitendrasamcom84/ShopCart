@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <Order_CheckOrder>
+      <version>0.1.0</version>
+    </Order_CheckOrder>
+  </modules>
+  <frontend>
+    <routers>
+      <check-order>
+        <use>standard</use>
+        <args>
+          <module>Order_CheckOrder</module>
+          <frontName>check-order</frontName>
+        </args>
+      </check-order>
+    </routers>
+    <layout>
+      <updates>
+        <check-order>
+          <file>orderinfo.xml</file>
+        </check-order>
+      </updates>
+    </layout>
+  </frontend>
+  <global>
+    <helpers>
+      <check-order>
+        <class>Order_CheckOrder_Helper</class>
+      </check-order>
+    </helpers>
+  </global>
+</config>

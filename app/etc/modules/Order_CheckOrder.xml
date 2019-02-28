@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+      <Order_CheckOrder>
+         <active>true</active>
+         <codePool>local</codePool>
+      </Order_CheckOrder>
+    </modules>
+</config>

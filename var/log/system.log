@@ -1,0 +1,150 @@
+2019-02-27T06:14:16+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] D:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Response\Http.php:52
+[1] D:\xampp\htdocs\magento\lib\Zend\Controller\Response\Abstract.php:768
+[2] D:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Response\Http.php:84
+[3] D:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php:184
+[4] D:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php:354
+[5] D:\xampp\htdocs\magento\app\Mage.php:684
+[6] D:\xampp\htdocs\magento\index.php:87
+</pre>
+2019-02-27T07:10:13+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] D:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Response\Http.php:52
+[1] D:\xampp\htdocs\magento\lib\Zend\Controller\Response\Abstract.php:768
+[2] D:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Response\Http.php:84
+[3] D:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php:184
+[4] D:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php:354
+[5] D:\xampp\htdocs\magento\app\Mage.php:684
+[6] D:\xampp\htdocs\magento\index.php:87
+</pre>
+2019-02-27T07:26:28+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] D:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Response\Http.php:52
+[1] D:\xampp\htdocs\magento\lib\Zend\Controller\Response\Abstract.php:768
+[2] D:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Response\Http.php:84
+[3] D:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php:184
+[4] D:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php:354
+[5] D:\xampp\htdocs\magento\app\Mage.php:684
+[6] D:\xampp\htdocs\magento\index.php:87
+</pre>
+2019-02-27T07:51:47+00:00 ERR (3): User Error: Some transactions have not been committed or rolled back  in D:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 3937
+2019-02-27T07:51:55+00:00 ERR (3): User Error: Some transactions have not been committed or rolled back  in D:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 3937
+2019-02-27T09:10:22+00:00 ERR (3): User Error: Some transactions have not been committed or rolled back  in D:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 3937
+2019-02-27T09:11:00+00:00 ERR (3): User Error: Some transactions have not been committed or rolled back  in D:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 3937
+2019-02-27T09:16:35+00:00 ERR (3): User Error: Some transactions have not been committed or rolled back  in D:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 3937
+2019-02-27T09:17:26+00:00 ERR (3): User Error: Some transactions have not been committed or rolled back  in D:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 3937
+2019-02-27T09:21:08+00:00 ERR (3): User Error: Some transactions have not been committed or rolled back  in D:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 3937
+2019-02-27T09:21:35+00:00 ERR (3): User Error: Some transactions have not been committed or rolled back  in D:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 3937
+2019-02-27T09:26:25+00:00 ERR (3): User Error: Some transactions have not been committed or rolled back  in D:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 3937
+2019-02-27T10:39:41+00:00 ERR (3): User Error: Some transactions have not been committed or rolled back  in D:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 3937
+2019-02-27T10:41:14+00:00 ERR (3): User Error: Some transactions have not been committed or rolled back  in D:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 3937
+2019-02-27T10:44:52+00:00 ERR (3): User Error: Some transactions have not been committed or rolled back  in D:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 3937
+2019-02-27T10:47:51+00:00 ERR (3): User Error: Some transactions have not been committed or rolled back  in D:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 3937
+2019-02-27T10:56:52+00:00 ERR (3): Notice: Undefined property: Place_Order_Model_Observer::$_mail  in D:\xampp\htdocs\magento\app\code\local\Place\Order\Model\Observer.php on line 18
+2019-02-27T10:56:57+00:00 ERR (3): User Error: Some transactions have not been committed or rolled back  in D:\xampp\htdocs\magento\lib\Varien\Db\Adapter\Pdo\Mysql.php on line 3937
+2019-02-27T11:03:03+00:00 ERR (3): Notice: Undefined property: Place_Order_Model_Observer::$_mail  in D:\xampp\htdocs\magento\app\code\local\Place\Order\Model\Observer.php on line 8
+2019-02-27T11:03:31+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] D:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Response\Http.php:52
+[1] D:\xampp\htdocs\magento\lib\Zend\Controller\Response\Abstract.php:768
+[2] D:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Response\Http.php:84
+[3] D:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php:184
+[4] D:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php:354
+[5] D:\xampp\htdocs\magento\app\Mage.php:684
+[6] D:\xampp\htdocs\magento\index.php:87
+</pre>
+2019-02-27T11:30:51+00:00 ERR (3): Notice: Undefined property: Place_Order_Model_Observer::$_mail  in D:\xampp\htdocs\magento\app\code\local\Place\Order\Model\Observer.php on line 8
+2019-02-27T11:31:51+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] D:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Response\Http.php:52
+[1] D:\xampp\htdocs\magento\lib\Zend\Controller\Response\Abstract.php:768
+[2] D:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Response\Http.php:84
+[3] D:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php:184
+[4] D:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php:354
+[5] D:\xampp\htdocs\magento\app\Mage.php:684
+[6] D:\xampp\htdocs\magento\index.php:87
+</pre>
+2019-02-27T12:02:10+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] D:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Response\Http.php:52
+[1] D:\xampp\htdocs\magento\lib\Zend\Controller\Response\Abstract.php:768
+[2] D:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Response\Http.php:84
+[3] D:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php:184
+[4] D:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php:354
+[5] D:\xampp\htdocs\magento\app\Mage.php:684
+[6] D:\xampp\htdocs\magento\index.php:87
+</pre>
+2019-02-27T12:02:28+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] D:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Response\Http.php:52
+[1] D:\xampp\htdocs\magento\lib\Zend\Controller\Response\Abstract.php:768
+[2] D:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Response\Http.php:84
+[3] D:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php:184
+[4] D:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php:354
+[5] D:\xampp\htdocs\magento\app\Mage.php:684
+[6] D:\xampp\htdocs\magento\index.php:87
+</pre>
+2019-02-27T12:11:25+00:00 CRIT (2): Not valid template file:frontend\base\default\template\checkorder/orderinfo
+2019-02-27T12:11:25+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] D:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Response\Http.php:52
+[1] D:\xampp\htdocs\magento\lib\Zend\Controller\Response\Abstract.php:768
+[2] D:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Response\Http.php:84
+[3] D:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php:184
+[4] D:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php:354
+[5] D:\xampp\htdocs\magento\app\Mage.php:684
+[6] D:\xampp\htdocs\magento\index.php:87
+</pre>
+2019-02-27T12:12:27+00:00 CRIT (2): Not valid template file:frontend\base\default\template\checkorder/orderinfo
+2019-02-27T12:12:28+00:00 CRIT (2): Not valid template file:frontend\base\default\template\checkorder/orderinfo
+2019-02-27T12:12:35+00:00 CRIT (2): Not valid template file:frontend\base\default\template\checkorder/orderinfo
+2019-02-27T12:12:36+00:00 CRIT (2): Not valid template file:frontend\base\default\template\checkorder/orderinfo
+2019-02-27T12:16:07+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 4: parser error : Opening and ending tag mismatch: check-order_index_order line 2 and check-order  in D:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 450
+2019-02-27T12:16:07+00:00 ERR (3): Warning: simplexml_load_string():     &lt;/check-order&gt;  in D:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 450
+2019-02-27T12:16:07+00:00 ERR (3): Warning: simplexml_load_string():                   ^  in D:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 450
+2019-02-27T12:16:08+00:00 ERR (3): Notice: Undefined offset: 0  in D:\xampp\htdocs\magento\app\code\local\Order\CheckOrder\controllers\IndexController.php on line 21
+2019-02-27T12:16:08+00:00 ERR (3): Notice: Undefined offset: 1  in D:\xampp\htdocs\magento\app\code\local\Order\CheckOrder\controllers\IndexController.php on line 22
+2019-02-27T12:16:09+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 4: parser error : Opening and ending tag mismatch: check-order_index_order line 2 and check-order  in D:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 450
+2019-02-27T12:16:09+00:00 ERR (3): Warning: simplexml_load_string():     &lt;/check-order&gt;  in D:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 450
+2019-02-27T12:16:09+00:00 ERR (3): Warning: simplexml_load_string():                   ^  in D:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 450
+2019-02-27T12:16:10+00:00 ERR (3): Notice: Undefined offset: 0  in D:\xampp\htdocs\magento\app\code\local\Order\CheckOrder\controllers\IndexController.php on line 21
+2019-02-27T12:16:10+00:00 ERR (3): Notice: Undefined offset: 1  in D:\xampp\htdocs\magento\app\code\local\Order\CheckOrder\controllers\IndexController.php on line 22
+2019-02-27T12:16:50+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 4: parser error : Opening and ending tag mismatch: check-order_index_order line 2 and check-order  in D:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 450
+2019-02-27T12:16:50+00:00 ERR (3): Warning: simplexml_load_string():     &lt;/check-order&gt;  in D:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 450
+2019-02-27T12:16:50+00:00 ERR (3): Warning: simplexml_load_string():                   ^  in D:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 450
+2019-02-27T12:17:06+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 4: parser error : Opening and ending tag mismatch: check-order_index_order line 2 and check-order  in D:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 450
+2019-02-27T12:17:06+00:00 ERR (3): Warning: simplexml_load_string():     &lt;/check-order&gt;  in D:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 450
+2019-02-27T12:17:06+00:00 ERR (3): Warning: simplexml_load_string():                   ^  in D:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 450
+2019-02-27T12:17:43+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 4: parser error : Opening and ending tag mismatch: check-order_index_order line 2 and check-order  in D:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 450
+2019-02-27T12:17:43+00:00 ERR (3): Warning: simplexml_load_string():     &lt;/check-order&gt;  in D:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 450
+2019-02-27T12:17:43+00:00 ERR (3): Warning: simplexml_load_string():                   ^  in D:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 450
+2019-02-27T12:17:55+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 4: parser error : Opening and ending tag mismatch: check-order_index_order line 2 and check-order  in D:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 450
+2019-02-27T12:17:55+00:00 ERR (3): Warning: simplexml_load_string():     &lt;/check-order&gt;  in D:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 450
+2019-02-27T12:17:55+00:00 ERR (3): Warning: simplexml_load_string():                   ^  in D:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 450
+2019-02-27T12:21:00+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 7: parser error : Opening and ending tag mismatch: check-order_index_order line 3 and check-order  in D:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 450
+2019-02-27T12:21:00+00:00 ERR (3): Warning: simplexml_load_string():     &lt;/check-order&gt;  in D:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 450
+2019-02-27T12:21:00+00:00 ERR (3): Warning: simplexml_load_string():                   ^  in D:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 450
+2019-02-27T12:21:24+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 7: parser error : Opening and ending tag mismatch: check-order_index_order line 3 and check-order  in D:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 450
+2019-02-27T12:21:24+00:00 ERR (3): Warning: simplexml_load_string():     &lt;/check-order&gt;  in D:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 450
+2019-02-27T12:21:24+00:00 ERR (3): Warning: simplexml_load_string():                   ^  in D:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 450
+2019-02-27T12:26:21+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 7: parser error : Opening and ending tag mismatch: check-order_index_order line 3 and check-order  in D:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 450
+2019-02-27T12:26:21+00:00 ERR (3): Warning: simplexml_load_string():     &lt;/check-order&gt;  in D:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 450
+2019-02-27T12:26:21+00:00 ERR (3): Warning: simplexml_load_string():                   ^  in D:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 450
+2019-02-27T12:26:26+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 7: parser error : Opening and ending tag mismatch: check-order_index_order line 3 and check-order  in D:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 450
+2019-02-27T12:26:26+00:00 ERR (3): Warning: simplexml_load_string():     &lt;/check-order&gt;  in D:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 450
+2019-02-27T12:26:26+00:00 ERR (3): Warning: simplexml_load_string():                   ^  in D:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 450
+2019-02-27T12:26:38+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 7: parser error : Opening and ending tag mismatch: check-order_index_order line 3 and check-order  in D:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 450
+2019-02-27T12:26:38+00:00 ERR (3): Warning: simplexml_load_string():     &lt;/check-order&gt;  in D:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 450
+2019-02-27T12:26:38+00:00 ERR (3): Warning: simplexml_load_string():                   ^  in D:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 450
+2019-02-27T12:27:27+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 7: parser error : Opening and ending tag mismatch: check-order_index_order line 3 and check-order  in D:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 450
+2019-02-27T12:27:27+00:00 ERR (3): Warning: simplexml_load_string():     &lt;/check-order&gt;  in D:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 450
+2019-02-27T12:27:27+00:00 ERR (3): Warning: simplexml_load_string():                   ^  in D:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout\Update.php on line 450
+2019-02-27T12:31:29+00:00 CRIT (2): Not valid template file:frontend\base\default\template\checkorder/orderinfo
+2019-02-27T12:31:33+00:00 CRIT (2): Not valid template file:frontend\base\default\template\checkorder/orderinfo
+2019-02-27T12:41:03+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] D:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Response\Http.php:52
+[1] D:\xampp\htdocs\magento\lib\Zend\Controller\Response\Abstract.php:768
+[2] D:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Response\Http.php:84
+[3] D:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php:184
+[4] D:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php:354
+[5] D:\xampp\htdocs\magento\app\Mage.php:684
+[6] D:\xampp\htdocs\magento\index.php:87
+</pre>
+2019-02-27T12:50:27+00:00 ERR (3): Notice: Undefined variable: block  in D:\xampp\htdocs\magento\app\code\local\Order\CheckOrder\controllers\IndexController.php on line 33
+2019-02-27T12:57:22+00:00 ERR (3): Notice: Undefined variable: var  in D:\xampp\htdocs\magento\app\design\frontend\base\default\template\checkorder\orderinfo.phtml on line 2
+2019-02-27T13:20:34+00:00 ERR (3): Notice: Undefined variable: order  in D:\xampp\htdocs\magento\app\design\frontend\base\default\template\checkorder\orderinfo.phtml on line 2
+2019-02-27T13:21:13+00:00 ERR (3): Notice: Undefined variable: order  in D:\xampp\htdocs\magento\app\design\frontend\base\default\template\checkorder\orderinfo.phtml on line 2
+2019-02-27T14:11:27+00:00 ERR (3): Notice: Trying to get property of non-object  in D:\xampp\htdocs\magento\app\design\frontend\base\default\template\checkorder\orderinfo.phtml on line 141
+2019-02-27T14:21:20+00:00 ERR (3): Notice: Trying to get property of non-object  in D:\xampp\htdocs\magento\app\design\frontend\base\default\template\checkorder\orderinfo.phtml on line 141
+2019-02-27T14:21:58+00:00 ERR (3): Notice: Trying to get property of non-object  in D:\xampp\htdocs\magento\app\design\frontend\base\default\template\checkorder\orderinfo.phtml on line 141
+2019-02-27T14:23:53+00:00 ERR (3): Notice: Trying to get property of non-object  in D:\xampp\htdocs\magento\app\design\frontend\base\default\template\checkorder\orderinfo.phtml on line 141
+2019-02-27T14:23:53+00:00 ERR (3): Notice: Trying to get property of non-object  in D:\xampp\htdocs\magento\app\design\frontend\base\default\template\checkorder\orderinfo.phtml on line 155
+2019-02-27T14:24:26+00:00 ERR (3): Notice: Trying to get property of non-object  in D:\xampp\htdocs\magento\app\design\frontend\base\default\template\checkorder\orderinfo.phtml on line 141
+2019-02-27T14:24:26+00:00 ERR (3): Notice: Trying to get property of non-object  in D:\xampp\htdocs\magento\app\design\frontend\base\default\template\checkorder\orderinfo.phtml on line 155
+2019-02-27T14:26:48+00:00 ERR (3): Notice: Undefined property: Place_Order_Model_Observer::$_mail  in D:\xampp\htdocs\magento\app\code\local\Place\Order\Model\Observer.php on line 8
+2019-02-27T14:27:04+00:00 ERR (3): Notice: Trying to get property of non-object  in D:\xampp\htdocs\magento\app\design\frontend\base\default\template\checkorder\orderinfo.phtml on line 141
+2019-02-27T14:27:04+00:00 ERR (3): Notice: Trying to get property of non-object  in D:\xampp\htdocs\magento\app\design\frontend\base\default\template\checkorder\orderinfo.phtml on line 155

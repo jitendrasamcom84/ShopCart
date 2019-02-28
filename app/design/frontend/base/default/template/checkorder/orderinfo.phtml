@@ -1,0 +1,162 @@
+<?php 
+$order = Mage::registry('order');
+$shippingAddr = Mage::registry('shippingAddr');
+$shippingAddress = Mage::registry('shippingAddress');
+$products = Mage::registry('products');
+
+?>
+<div class="page-title title-buttons">
+    <h1>Order #<?php echo $order->getIncrementId(); ?> - <?php echo $order->getStatus(); ?></h1>
+</div>
+<dl class="order-info">
+    <dt>About This Order:</dt>
+    <dd>
+        <ul id="order-info-tabs">
+            <li class="current first last">Order Information</li>
+        </ul>
+        <script
+            type="text/javascript">decorateGeneric($('order-info-tabs').select('LI'), ['first', 'last']);</script>
+    </dd>
+</dl>
+<p class="order-date">Order Date: <?php echo date('F d, Y', strtotime($order->getCreatedAt())); ?></p>
+<div class="col2-set order-info-box">
+    <div class="col-1">
+        <div class="box">
+            <div class="box-title">
+                <h2>Shipping Address</h2>
+            </div>
+            <div class="box-content">
+                <address><?php echo $shippingAddress; ?></address>
+            </div>
+        </div>
+    </div>
+    <div class="col-2">
+        <div class="box">
+            <div class="box-title">
+                <h2>Shipping Method</h2>
+            </div>
+            <div class="box-content">
+                Flat Rate - Fixed </div>
+        </div>
+    </div>
+</div>
+<!-- <div class="col2-set order-info-box">
+    <div class="col-1">
+        <div class="box">
+            <div class="box-title">
+                <h2>Billing Address</h2>
+            </div>
+            <div class="box-content">
+                <address><?php echo $order->getCustomerFirstname()." ".$order->getCustomerLastname() ; ?><br>
+
+                    #41<br>
+
+
+
+                    ahm, 380001<br>
+                    India<br>
+                    T: 513513116554
+
+                </address>
+            </div>
+        </div>
+    </div>
+    <div class="col-2">
+        <div class="box box-payment">
+            <div class="box-title">
+                <h2>Payment Method</h2>
+            </div>
+            <div class="box-content">
+                <p>Check / Money order</p>
+            </div>
+        </div>
+    </div>
+</div> -->
+<div class="order-items order-details">
+    <h2 class="table-caption">Items Ordered </h2>
+
+    <table class="data-table linearize-table-large" id="my-orders-table" summary="Items Ordered">
+        <colgroup>
+            <col>
+            <col width="1">
+            <col width="1">
+            <col width="1">
+            <col width="1">
+        </colgroup>
+        <thead>
+            <tr class="first last">
+                <th>Product</th>
+                <th>SKU</th>
+                <th class="a-right">Price</th>
+                <th class="a-center">Qty</th>
+                <th class="a-right">Subtotal</th>
+            </tr>
+        </thead>
+        <tbody class="odd">
+            <?php foreach($products as $item){ ?>
+              <tr class="border first last" id="order-item-row-18">
+                <td>
+                    <h3 class="product-name"><?php echo $item->getName(); ?></h3>
+                </td>
+                <td data-rwd-label="SKU"><?php echo $item->getSku(); ?></td>
+                <td class="a-right" data-rwd-label="Price">
+                    <span class="price-excl-tax">
+                        <span class="cart-price">
+
+                            <span class="price"><?php echo $item->getPrice(); ?></span>
+                        </span>
+
+
+                    </span>
+                    <br>
+                </td>
+                <td class="a-right" data-rwd-label="Qty">
+                    <span class="nobr">
+                        Ordered: <strong><?php echo $item->getQtyOrdered(); ?></strong><br>
+                    </span>
+                </td>
+                <td class="a-right last" data-rwd-label="Subtotal">
+                    <span class="price-excl-tax">
+                        <span class="cart-price">
+
+                            <span class="price"><?php echo $item->getRowTotal(); ?></span>
+                        </span>
+
+
+                    </span>
+                    <br>
+                </td>
+                <!--
+<th class="a-right"><span class="price">₹1,000.00</span></th>
+-->
+            </tr>
+            <?php } ?>
+            
+        </tbody>
+        <tfoot>
+            <tr class="subtotal first">
+                <td colspan="4" class="a-right">
+                    Subtotal </td>
+                <td class="last a-right">
+                    <span class="price">₹1,000.00<?php echo $products->getSubtotal; ?></span> 
+                </td>
+            </tr>
+            <tr class="shipping">
+                <td colspan="4" class="a-right">
+                    Shipping &amp; Handling </td>
+                <td class="last a-right">
+                    <span class="price">₹5.00</span> </td>
+            </tr>
+            <tr class="grand_total last">
+                <td colspan="4" class="a-right">
+                    <strong>Grand Total</strong>
+                </td>
+                <td class="last a-right">
+                    <strong><span class="price">₹1,005.00<?php echo $products->getGrandTotal; ?></span></strong>
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+    <script
+        type="text/javascript">decorateTable('my-orders-table', { 'tbody': ['odd', 'even'], 'tbody tr': ['first', 'last'] })</script>
+</div>

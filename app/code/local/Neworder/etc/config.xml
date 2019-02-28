@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <Neworder>
+      <version>0.1.0</version>
+    </Neworder>
+  </modules>
+  <frontend>
+    <routers>
+      <order>
+        <use>standard</use>
+        <args>
+          <module>Neworder</module>
+          <frontName>Neworder</frontName>
+        </args>
+      </order>
+    </routers>
+  </frontend>
+  <global>
+    <helpers>
+        <class>Neworder_Helper</class>
+    </helpers>
+  </global>
+</config>
